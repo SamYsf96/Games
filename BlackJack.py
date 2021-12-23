@@ -8,7 +8,6 @@ rank = ('Two', 'Three', 'Four', 'Five','Six', 'Seven', 'Eight', 'Nine', 'Ten', '
 
 
 class Card:
-
     def __init__(self, rank, suit):
         self.rank = rank
         self.suit = suit
@@ -19,7 +18,6 @@ class Card:
 
 
 class Deck:
-
     def __init__(self):
         self.cardDeck = []
         for i in rank:
@@ -35,7 +33,6 @@ class Deck:
 
 
 class Player:
-
     def __init__(self, name):
         self.name = name
         self.playerDeck = []
@@ -63,7 +60,6 @@ class Chips:
         return self.balance
 
 class Dealer:
-
     def __init__(self):
         self.dealerDeck = []
 
